@@ -1,0 +1,852 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SMTS
+</name>
+</assembly>
+<members>
+<member name="T:SMTS.Database1DataSet1.PortfolioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet1.PortfolioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet1.PortfolioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet1TableAdapters.PortfolioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet1TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet4.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet4.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet4.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet4TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet4TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet7.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet7.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet7.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet7TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet7TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources._5ff4fe27702a939e6caeb2daa93aff22__pewter_grey_pearl_grey">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources._6182cef05d2deb5e51d62132_OG_Image_home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources._6182cef05d2deb5e51d62132_OG_Image_home1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources._86e93382e18e258f176b12888a7800f3126c90b2_getty_stock_market_chart_large">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.business_candle_stick_graph_chart_of_stock_market_investment_vector">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.investing_at_market_high_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.istockphoto_675020930_170667a">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.LDW2018_main">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.pngtree_data_strip_rise_trend_png_image_550937">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.Stock_Market_Charts_Are_Useless_56a093595f9b58eba4b1ae5b">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.trading_background_with_rising_blue_candlestick_chart_vector">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.translate_black_design_frame_ppt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:SMTS.My.Resources.Resources.Untitled_design">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:SMTS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:SMTS.Database1DataSet12.UserDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet12.UserDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet12.UserDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet12">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet12TableAdapters.UserDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet12TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet12)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet12TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet9.WalletDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet9.WalletRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet9.WalletRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet9TableAdapters.WalletTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet9TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet11.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet11.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet11.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet11">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet11TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet11TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet11)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet11TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet3.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet3.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet3.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet3TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet3TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet6.StocksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet6.StocksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet6.StocksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet6TableAdapters.StocksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet6TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.AdminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.PortfolioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.PurchasedDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.StocksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.UserDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.WalletDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.AdminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.PortfolioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.PurchasedRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.StocksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.UserDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.WalletRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.AdminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.PortfolioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.PurchasedRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.StocksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.UserDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet2.WalletRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.AdminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.PortfolioTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.PurchasedTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.StocksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.UserDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.WalletTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet2TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet5.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet5.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet5.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet5TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet5TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet8.StocksDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet8.StocksRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet8.StocksRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet8TableAdapters.StocksTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet8TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet10.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet10.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet10.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet10TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet10TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet10TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet13.HoldingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet13.HoldingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SMTS.Database1DataSet13.HoldingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SMTS.Database1DataSet13">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SMTS.Database1DataSet13TableAdapters.HoldingsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SMTS.Database1DataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(SMTS.Database1DataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(SMTS.Database1DataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(SMTS.Database1DataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SMTS.Database1DataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SMTS.Database1DataSet13TableAdapters.TableAdapterManager.UpdateAll(SMTS.Database1DataSet13)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SMTS.Database1DataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SMTS.Database1DataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SMTS.Database1DataSet13TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SMTS.Database1DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

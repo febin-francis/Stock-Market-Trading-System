@@ -1,0 +1,43 @@
+C:\Users\Febin Francis\AppData\Local\Temporary Projects\SMTS\bin\Debug\SMTS.exe.config
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.exe.config
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.exe
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.pdb
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.xml
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.acccreation.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.buystock.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.login.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Resources.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.profile.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Report.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.sellstock.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.visitmarket.resources
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.vbproj.GenerateResource.Cache
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.exe
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.xml
+C:\Users\Febin Francis\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.exe.config
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\Database1.mdf
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\Database1_log.ldf
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.exe
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.pdb
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\bin\Debug\SMTS.xml
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.acccreation.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Add_money.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Admin.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.buystock.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.login.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Resources.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.profile.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Report.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.sellstock.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.visitmarket.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Withdraw_Money.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Add_Stocks.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Listed_Stocks.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.Stock_Holdings.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.User_Wallets.resources
+C:\Users\user\Documents\Visual Studio 2012\Projects\SMTS\SMTS\obj\Debug\SMTS.UserDetails.resources
